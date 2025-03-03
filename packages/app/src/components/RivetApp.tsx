@@ -90,14 +90,14 @@ export const RivetApp: FC = () => {
           <LeftSidebar onRunGraph={(graphId) => tryRunGraph({ graphId })} />
           <GraphBuilder />
           <SettingsModal />
-          <PromptDesignerRenderer />
-          <TrivetRenderer tryRunTests={tryRunTests} />
-          <ChatViewerRenderer />
-          <DataStudioRenderer />
-          <PluginsOverlayRenderer />
+          {/* <PromptDesignerRenderer /> */}
+          {/* <TrivetRenderer tryRunTests={tryRunTests} /> */}
+          {/* <ChatViewerRenderer /> */}
+          {/* <DataStudioRenderer /> */}
+          {/* <PluginsOverlayRenderer /> */}
           <UpdateModalRenderer />
           <NewProjectModalRenderer />
-          <CommunityOverlayRenderer />
+          {/* <CommunityOverlayRenderer /> */}
         </>
       )}
       <HelpModal />

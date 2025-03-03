@@ -31,7 +31,7 @@ export const remoteDebuggerState = atom<RemoteDebuggerState>({
     started: false,
     reconnecting: false,
     url: '',
-    remoteUploadAllowed: false,
+    remoteUploadAllowed: true,
     isInternalExecutor: false,
   },
   effects: [persistAtom],

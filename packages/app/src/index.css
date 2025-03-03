@@ -21,7 +21,8 @@ body {
 }
 
 :root {
-  --project-selector-height: 38px;
+  /* --project-selector-height: 38px; */
+  --project-selector-height: 0px;
 }
 
 * {

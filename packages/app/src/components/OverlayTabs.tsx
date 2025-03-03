@@ -230,7 +230,7 @@ export const OverlayTabs: FC = () => {
           </button>
         </div>
 
-        <div className={clsx('menu-item plugins', { active: openOverlay === 'plugins' })}>
+        {/* <div className={clsx('menu-item plugins', { active: openOverlay === 'plugins' })}>
           <button
             className="dropdown-item"
             onMouseDown={(e) => {
@@ -241,9 +241,9 @@ export const OverlayTabs: FC = () => {
           >
             Plugins
           </button>
-        </div>
+        </div> */}
 
-        {communityEnabled && (
+        {/* {communityEnabled && (
           <div className={clsx('menu-item community', { active: openOverlay === 'community' })}>
             <button
               className="dropdown-item"
@@ -256,9 +256,9 @@ export const OverlayTabs: FC = () => {
               Community
             </button>
           </div>
-        )}
+        )} */}
 
-        <div className={clsx('menu-item prompt-designer-menu', { active: openOverlay === 'promptDesigner' })}>
+        {/* <div className={clsx('menu-item prompt-designer-menu', { active: openOverlay === 'promptDesigner' })}>
           <button
             className="dropdown-item"
             onMouseDown={(e) => {
@@ -269,8 +269,8 @@ export const OverlayTabs: FC = () => {
           >
             Prompt Designer
           </button>
-        </div>
-        <div className={clsx('menu-item trivet-menu', { active: openOverlay === 'trivet' })}>
+        </div>  */}
+        {/* <div className={clsx('menu-item trivet-menu', { active: openOverlay === 'trivet' })}>
           <button
             className="dropdown-item"
             onMouseDown={(e) => {
@@ -286,8 +286,8 @@ export const OverlayTabs: FC = () => {
               </div>
             )}
           </button>
-        </div>
-        <div className={clsx('menu-item chat-viewer-menu', { active: openOverlay === 'chatViewer' })}>
+        </div> */}
+        {/* <div className={clsx('menu-item chat-viewer-menu', { active: openOverlay === 'chatViewer' })}>
           <button
             className="dropdown-item"
             onMouseDown={(e) => {
@@ -298,8 +298,8 @@ export const OverlayTabs: FC = () => {
           >
             Chat Viewer
           </button>
-        </div>
-        <div className={clsx('menu-item data-studio', { active: openOverlay === 'dataStudio' })}>
+        </div> */}
+        {/* <div className={clsx('menu-item data-studio', { active: openOverlay === 'dataStudio' })}>
           <button
             className="dropdown-item"
             onMouseDown={(e) => {
@@ -310,7 +310,7 @@ export const OverlayTabs: FC = () => {
           >
             Data Studio
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
